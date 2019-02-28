@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F26B0CC1221CDBAA003913D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B0CC0221CDBAA003913D6 /* AppDelegate.swift */; };
-		F26B0CC3221CDBAA003913D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B0CC2221CDBAA003913D6 /* ViewController.swift */; };
 		F26B0CC6221CDBAB003913D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B0CC4221CDBAB003913D6 /* Main.storyboard */; };
 		F26B0CC8221CDBAC003913D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26B0CC7221CDBAC003913D6 /* Assets.xcassets */; };
 		F26B0CCB221CDBAC003913D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B0CC9221CDBAC003913D6 /* LaunchScreen.storyboard */; };
 		F26B0CD6221CDBAC003913D6 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B0CD5221CDBAC003913D6 /* WorldTrotterTests.swift */; };
 		F26B0CE1221CDBAC003913D6 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B0CE0221CDBAC003913D6 /* WorldTrotterUITests.swift */; };
+		F2830B0622261C940063CE6E /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2830B0522261C940063CE6E /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		F26B0CBD221CDBAA003913D6 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26B0CC0221CDBAA003913D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F26B0CC2221CDBAA003913D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F26B0CC5221CDBAB003913D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26B0CC7221CDBAC003913D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26B0CCA221CDBAC003913D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		F26B0CDC221CDBAC003913D6 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26B0CE0221CDBAC003913D6 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		F26B0CE2221CDBAC003913D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2830B0522261C940063CE6E /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		F26B0CBF221CDBAA003913D6 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				F2830B0522261C940063CE6E /* ConversionViewController.swift */,
 				F26B0CC0221CDBAA003913D6 /* AppDelegate.swift */,
-				F26B0CC2221CDBAA003913D6 /* ViewController.swift */,
 				F26B0CC4221CDBAB003913D6 /* Main.storyboard */,
 				F26B0CC7221CDBAC003913D6 /* Assets.xcassets */,
 				F26B0CC9221CDBAC003913D6 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26B0CC3221CDBAA003913D6 /* ViewController.swift in Sources */,
+				F2830B0622261C940063CE6E /* ConversionViewController.swift in Sources */,
 				F26B0CC1221CDBAA003913D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
